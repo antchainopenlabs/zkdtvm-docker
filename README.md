@@ -15,21 +15,21 @@ x86-64 CPU, NVIDIA RTX 5090 GPU and cuda 12.8 are required.
 
 ## Usage
 
-### PULL THE DOCKER IMAGE
+### Pull the docker image
 
 ```bash
 # Download the container
 docker pull ghcr.io/doubizhizun/zkdtvm_eth_proofs:0.6.1
 ```
 
-### RUN WITH SINGLE CARD
+### Run with a single GPU
 
 ```bash
 # Start the single prover
 ./prove_single.sh <http_rpc_url> <ws_rpc_url> <api_token>
 ```
 
-### RUN WITH 8 CARDS
+### Run with 8 GPUs
 
 ```bash
 # Firstly, start the coordinator and 8 provers
@@ -38,7 +38,7 @@ docker pull ghcr.io/doubizhizun/zkdtvm_eth_proofs:0.6.1
 ./prove_network.sh <http_rpc_url> <ws_rpc_url> <api_token>
 ```
 
-### RUN WITH 16 CARDS (2 SERVERS)
+### Run with 16 GPUs (2 servers)
 
 ```bash
 # Firstly, start the coordinator and 8 provers on the superior server
