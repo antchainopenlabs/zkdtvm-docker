@@ -6,11 +6,11 @@ This repository provides the binary release of zkDTVM and the tool for proving E
 
 ## Docker-Based Installation
 
-We provide a Docker container with zkDTVM for 
+We provide a Docker container with zkDTVM for proving Ethereum block.
 
 ## Dependencies
 
-x86-64 CPU, NVIDIA RTX 5090 GPU and cuda 12.8 are required.
+Servers with x86-64 CPUs, NVIDIA RTX 5090 GPUs and cuda 12.8 are required.
 
 
 ## Usage
